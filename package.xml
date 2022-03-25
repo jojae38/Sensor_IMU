@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package>
+  <name>sensor_imu</name>
+  <version>0.0.0</version>
+  <description>Servinggo IMU Sensor Package ( E2BOX EBIMU-9DOFV5 )</description>
+  <maintainer email="cogaplex@cogaplex.com">cona</maintainer>
+  <license>BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3</license>
+  <author email="jkang@cogaplex.com">Jungmo Kang</author>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>serial</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>serial</run_depend>
+  <run_depend>std_msgs</run_depend>
+</package>
